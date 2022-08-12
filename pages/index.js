@@ -85,7 +85,6 @@ function App() {
                 key={id}
                 id={id}
                 title={pokemon["name"]}
-                text="text"
                 buttonText="like"
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`}
               />
